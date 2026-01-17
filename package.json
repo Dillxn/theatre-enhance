@@ -1,0 +1,31 @@
+{
+  "name": "theatre-enhance",
+  "version": "0.1.0",
+  "description": "Theatre.js Studio helpers for camera path editing.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "@theatre/core": "^0.7.0",
+    "@theatre/dataverse": "^0.7.0",
+    "@theatre/r3f": "^0.7.0",
+    "@theatre/studio": "^0.7.0",
+    "react": "^18 || ^19",
+    "three": "^0.180.0"
+  }
+}
