@@ -5,6 +5,7 @@ export { default as CameraSplinePath } from './CameraSplinePath';
 export type { CameraSplinePathProps } from './CameraSplinePath';
 export {
   getTheatreEnhanceState,
+  setTheatreEnhanceExportProjectId,
   setTheatreEnhanceState,
   subscribeTheatreEnhanceState,
   useTheatreEnhanceState,
